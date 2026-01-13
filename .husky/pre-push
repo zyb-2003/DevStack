@@ -1,3 +1,0 @@
-﻿#!/bin/sh
-echo "🚀 Pre-push: running type check..."
-npm run type-check 2>/dev/null || echo "⚠️  Type check skipped"

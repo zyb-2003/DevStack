@@ -1,5 +1,0 @@
-﻿#!/bin/sh
-if [ -z "$2" ]; then
-  echo "# Type: feat|fix|docs|style|refactor|test|chore" > "$1"
-  echo "# Example: feat: add new feature" >> "$1"
-fi
